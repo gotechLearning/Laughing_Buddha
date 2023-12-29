@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+}
+
+.container {
+    background-color: aquamarine;
+    width: 100vw;
+    height: 100vh;
+    /* padding: 5% 0%; */
+    padding-top: 5%;
+    /* margin-top: 4%; */
+    position: relative;
+}
+
+.card {
+    position: absolute;
+    display: inline-block;
+    width: 20vw;
+    height: 20%;
+    /* top:10%; */
+    
+}
+.c1{
+    left: 7%;
+}
+.c2{
+    left: 36%;
+}
+.c3{
+    left: 68%;
+}
+
+
+/* .card-img {
+    outline: none;
+    border: none;
+} */
+
+.card-img img {
+    width: 100%;
+    height: 30vh;
+    margin: 0;
+    padding: 0;
+    transition: all .3s ease-in-out;
+}
+.card:hover .card-img img {
+    height: 70vh;
+    cursor: pointer;
+    
+}
+.card-title {
+    /* outline: none;
+    border: none; */
+    background-color: rgb(236, 195, 215);
+    /* margin: 0px 0px; */
+    margin-top: -5px;
+}
+
+.card-title P {
+    /* margin: 0px 0px; */
+    color: black;
+    font-weight: bold;
+    font-family: 'ubuntu', sans-serif;
+    font-size: 20px;
+    padding: 3px 3px;
+}
